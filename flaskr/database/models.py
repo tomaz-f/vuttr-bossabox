@@ -1,8 +1,11 @@
 from flaskr.database.connection import db
 
 
-class ChangeMe(db.Model):
-    __tablename__ = "ChangeMe"
+class VuttrModel(db.Model):
+    __tablename__ = "vuttr"
 
-    id_car = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(255))
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    title = db.Column(db.String(255), nullable=False)
+    link = db.Column(db.String(255), nullable=False)
+    description = db.Column(db.String(255), nullable=False)
+    tags = db.Column(db.String(255), nullable=False)
