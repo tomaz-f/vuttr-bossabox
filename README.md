@@ -2,7 +2,7 @@
 
 ## Clonando o Repositorio
 
-> git clone <https://github.com/tomaz-f/ApiCarros.git>
+> git clone <https://github.com/tomaz-f/vuttr-bossabox.git>
 
 ## Criando um virtualenv e Instalando as dependencias
 
@@ -20,7 +20,7 @@ Utilize o aquivo de requirements juntamente com o pip para baixar as dependencia
 
 > flask --app flaskr run --debug
 
-A api vai rodar localmente: <http://localhost:5000/carros>
+A api vai rodar localmente: <http://localhost:5000/>
 
 ## Fazendo as requisiçoes
 
@@ -30,10 +30,10 @@ Utilize o postman ou qualquer outro programa para testar a api.
 
 >
 
-    POSTGRES_USER=admin
-    POSTGRES_PASSWORD=admin
-    POSTGRES_DB=flask_db
-    PGADMIN_DEFAULT_EMAIL=admin@gmail.com
-    PGADMIN_DEFAULT_PASSWORD=admin
-    DB_URL=postgresql+psycopg2://admin:admin@localhost:5432/flask_db
-    PGDATA=/data/postgres
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=admin
+POSTGRES_DB=flask_db
+PGADMIN_DEFAULT_EMAIL=admin@gmail.com
+PGADMIN_DEFAULT_PASSWORD=admin
+DB_URL=postgresql+psycopg2://admin:admin@localhost:5432/flask_db
+PGDATA=/data/postgres
