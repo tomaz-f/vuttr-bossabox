@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 from flaskr.database.connection import config_database
-from flaskr.routes.car_routes import config_routes
+from flaskr.routes.vuttr_routes import config_routes
 
 
 def create_app():
